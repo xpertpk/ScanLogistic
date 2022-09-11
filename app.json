@@ -24,7 +24,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.shahbazmughal.scanlogistic"
+      "package": "com.shahbazmughal.scanlogistic",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~5354046379"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"

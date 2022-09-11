@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import BannerAd from "../src/BannerAd";
 
 import '../assets/car.png';
 
@@ -46,6 +47,9 @@ function Home({ navigation }) {
         <TouchableOpacity style={styles.loginBtn} onPress={goToScan}>
             <Text style={styles.loginText} onPress={goToScan}>Scan Barcode</Text>
         </TouchableOpacity>
+        <View style={{height:100,width:`100%`, display: 'flex'}}>
+          <BannerAd />
+        </View>
    </View>
   );
 }
